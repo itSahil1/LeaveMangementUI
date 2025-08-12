@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Plus, Users, Calendar, Check, X, Eye, Briefcase, Mail, Home, ArrowRight } from 'lucide-react';
 
-const API_URL = "https://leavemangementapi.onrender.com";
+const API_URL = "https://leavemangementapi.onrender.com/api";
 
 
 const Modal = ({ isOpen, onClose, title, children }) => {
